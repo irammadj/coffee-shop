@@ -7,43 +7,45 @@ body {
 }
 
 .navbar {
-  background-color: rgb(34, 34, 34);
+  padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 0.01rem 0.8rem;
+  gap: 150px;
+  border-bottom: 1px solid #333333;
 }
 
-.navbar h2 {
+.logo {
+  color: #c9956f;
+  font-size: 24px;
   font-weight: bold;
-  color: #db7d4f;
-  font-size: 2rem;
 }
-.navbar ul {
+
+.nav-link {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 50px;
   list-style: none;
-  gap: 40px;
 }
 
-.navbar a {
+.nav-link a {
+  color: #ffffff;
   text-decoration: none;
-  color: white;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
-.navbar a:hover {
-  text-decoration: underline;
-  color: #db7d4f;
+.nav-link a:hover {
+  color: #c9956f;
 }
 
 .hero {
-  padding: 100px 50px;
+  padding: 100px 50px 150px 50px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 50px;
   min-height: 600px;
+  position: relative;
 }
 
 .hero-content {
