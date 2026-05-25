@@ -1,1 +1,1 @@
-# food-for-thought
+# coffee-shop
